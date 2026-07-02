@@ -1,0 +1,67 @@
+@import url(../../styles/main.css);
+
+:root{
+    --color-dark-blue: #294a75;
+}
+
+.header-main{
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: var(--header-height);
+}
+
+.header-img{
+    width: 2.5rem;
+}
+
+.header-logo{
+    display: flex;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.header-logo:hover{
+    box-shadow: 0px 2px 0 var(--color-dark-blue);
+}
+
+.header-title{
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.header-title_C{
+    font-size: 2.5rem;
+    color: var(--color-dark-blue);
+}
+
+.header-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav a{
+    font-weight: 400;
+    color: var(--color-gray);
+    text-decoration: none;
+    box-shadow: 0px 3px 0px var(--color-gray2);
+    padding: 3px;
+    transition: 150ms;
+}
+
+.header-nav a:hover{
+    color: var(--color-black);
+}
+
+.header-nav .active{
+    font-weight: 600;
+    color: var(--color-dark-blue);
+    box-shadow: 0 3px 0px var(--color-dark-blue);
+}

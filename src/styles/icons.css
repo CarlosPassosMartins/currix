@@ -1,0 +1,10 @@
+.check-circle::before{
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor;
+
+    mask: url(../imgs/icons/check-circle.svg) no-repeat center;
+    -webkit-mask: url(../imgs/icons/check-circle.svg) no-repeat center;
+}

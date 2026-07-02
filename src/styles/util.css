@@ -1,0 +1,35 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    line-height: 1.5;
+    font-size: 1rem;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0061A5, #2D476F);
+    color: white;
+    cursor: pointer;
+    transition: transform 200ms, filter 200ms, box-shadow 200ms;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 97, 165, 0.3);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    filter: brightness(0.95);
+}
+
+
+@media (max-width: 768px) {
+    .no-mobile{
+        display: none;
+    }
+}
