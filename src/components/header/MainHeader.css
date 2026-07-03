@@ -47,7 +47,7 @@
     gap: 20px;
 }
 
-.header-nav a{
+.header-nav_item{
     font-weight: 400;
     color: var(--color-gray);
     text-decoration: none;
@@ -56,12 +56,12 @@
     transition: 150ms;
 }
 
-.header-nav a:hover{
+.header-nav_item:hover{
     color: var(--color-black);
 }
 
 .header-nav .active{
-    font-weight: 600;
+    font-weight: 400;
     color: var(--color-dark-blue);
     box-shadow: 0 3px 0px var(--color-dark-blue);
 }

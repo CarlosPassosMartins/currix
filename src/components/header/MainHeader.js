@@ -1,17 +1,18 @@
 import './MainHeader.css';
 import logo from '../../imgs/icons/Logo.svg';
+import { NavLink, Link } from 'react-router-dom';
 
 function MainHeader(){
         return(
             <header className="header-main">
-                <a href='/' className="header-logo">
+                <Link to="/" className="header-logo">
                         <img className='header-img' src={logo} alt="logo-currix"/>
                         <span className='header-title'><span className='header-title_C'>C</span>urrix</span>
-                </a>
+                </Link>
 
                 <nav className="header-nav">
-                    <a className="header-nav_item" href="/templates">Templates</a>
-                    <a className="header-nav_item" href="/editor">Editor</a>
+                    <NavLink className={({isActive}) => isActive ? "header-nav_item active" : "header-nav_item"} to="/templates">Templates</NavLink>
+                    <NavLink className={({isActive}) => isActive ? "header-nav_item active" : "header-nav_item"} to="/editor">Editor</NavLink>
                 </nav>
             </header>
         );

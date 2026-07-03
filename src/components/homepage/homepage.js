@@ -1,5 +1,6 @@
 import './homepage.css';
 import curriculo from'../../imgs/curiculo-amostra.png'
+import { Link } from 'react-router-dom';
 
 function Homepage(){
         return(
@@ -12,7 +13,7 @@ function Homepage(){
                     </div>
 
                     <div className='homepage-button_container'>
-                        <button className='btn btn-primary homepage-btn'>COMEÇAR</button>
+                        <Link to="/gay" className='btn btn-primary homepage-btn'>COMEÇAR</Link>
                         <span className='homepage-text_btn'> <i className='check-circle'></i> Não requer cartão de credito</span>
                     </div>
                 </div>
