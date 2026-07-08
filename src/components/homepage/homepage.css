@@ -74,6 +74,7 @@
 
     .homepage-button_container{
         flex-direction: column;
+        margin: 0   ;
     }
 
     .homepage-btn{

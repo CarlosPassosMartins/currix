@@ -13,14 +13,14 @@ function Homepage(){
                     </div>
 
                     <div className='homepage-button_container'>
-                        <Link to="/gay" className='btn btn-primary homepage-btn'>COMEÇAR</Link>
+                        <Link to="/templates" className='btn btn-primary homepage-btn'>COMEÇAR</Link>
                         <span className='homepage-text_btn'> <i className='check-circle'></i> Não requer cartão de credito</span>
                     </div>
                 </div>
 
                 <div className='homepage-right'>
                     <div className='homepage-image_container'>
-                        <img src={curriculo} alt="" />
+                        <img src={curriculo} alt="imagem de um curriculo" />
                     </div>
                 </div>
             </main>

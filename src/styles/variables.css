@@ -3,6 +3,7 @@
     --color-black: #121212;
     --color-gray: #4E4E4E;
     --color-gray2: #D9D9D9;
+    --color-gray3: #464646;
 
     --header-height: 70px;
     --main-height: calc(100dvh - var(--header-height))

@@ -29,6 +29,10 @@
     filter: brightness(0.95);
 }
 
+.not-link{
+    text-decoration: none;
+}
+
 
 @media (max-width: 768px) {
     .no-mobile{
